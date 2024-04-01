@@ -5,10 +5,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class permutation {
-    public static void main(String[] args){    
-        ArrayList<String> list = Permutation_list("", "abc");
-        System.out.println(Arrays.toString(list));
-    }
 }
 static ArrayList<String> Permutation_list(String p, String up){
     if (up.isEmpty()) {
