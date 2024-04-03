@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class permutation {
-}
+
 static ArrayList<String> Permutation_list(String p, String up){
     if (up.isEmpty()) {
        ArrayList<String> list = new ArrayList<>();
@@ -20,4 +20,5 @@ static ArrayList<String> Permutation_list(String p, String up){
        ans.addAll(Permutation_list(f + ch + l, up.substring(1)));
    }
    return ans;
+}
 }
