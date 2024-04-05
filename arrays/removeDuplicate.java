@@ -1,4 +1,5 @@
-public class removeDuplicate {
+package arrays;
+class removeDuplicate {
     public static void main(String[] args) {
         
     }
